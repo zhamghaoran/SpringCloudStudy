@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: SpringCloudStudy
+  datasource:
+    url: jdbc:mysql://43.139.80.148/springcloud?serverTimezone=UTC
+    username: jjking
+    password: 153359157aA@
+    name: defaultDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
