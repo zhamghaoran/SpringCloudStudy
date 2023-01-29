@@ -1,7 +1,7 @@
 package com.zhr.cloudprividerpayment8001.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.zhr.cloudprividerpayment8001.Entity.Payment;
+import com.zhr.cloudcommonapi.Entity.Payment;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper

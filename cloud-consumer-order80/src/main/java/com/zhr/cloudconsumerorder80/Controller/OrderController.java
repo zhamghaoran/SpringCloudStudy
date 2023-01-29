@@ -1,7 +1,8 @@
 package com.zhr.cloudconsumerorder80.Controller;
 
-import com.zhr.cloudconsumerorder80.Entity.CommonResult;
-import com.zhr.cloudconsumerorder80.Entity.Payment;
+
+import com.zhr.cloudcommonapi.Entity.CommonResult;
+import com.zhr.cloudcommonapi.Entity.Payment;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

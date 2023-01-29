@@ -1,9 +1,9 @@
 package com.zhr.cloudprividerpayment8001.Service;
 
 
-import com.zhr.cloudprividerpayment8001.Entity.Payment;
+import com.zhr.cloudcommonapi.Entity.Payment;
 
 public interface PaymentService {
     int createPayment(Payment payment);
-    Payment getPaymentById(Integer id);
+    Payment getPaymentById(Long id);
 }
