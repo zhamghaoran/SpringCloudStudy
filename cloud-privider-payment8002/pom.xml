@@ -7,11 +7,10 @@
         <groupId>com.zhr</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>com.zhr</groupId>
-    <artifactId>cloud-provider-payment8001</artifactId>
+    <artifactId>cloud-provider-payment8002</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>cloud-provider-payment8001</name>
-    <description>cloud-provider-payment8001</description>
+    <name>cloud-provider-payment8002</name>
+    <description>cloud-provider-payment8002</description>
 
     <properties>
         <java.version>11</java.version>

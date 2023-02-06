@@ -1,12 +1,12 @@
 server:
-  port: 8001
+  port: 8002
 spring:
   application:
     name: cloud-payment-provider
   datasource:
-    url: jdbc:mysql://?serverTimezone=UTC
-    username:
-    password:
+    url: jdbc:mysql://43.139.80.148/springcloud?serverTimezone=UTC
+    username: jjking
+    password: 153359157aA@
     name: defaultDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
 
