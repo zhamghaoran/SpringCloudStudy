@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="cloud-provider-payment8001:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/cloud_provider_payment8001_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="cloud-provider-payment8001/javaeeApplication/javaEEApplication" />
+    </root>
+  </artifact>
+</component>
