@@ -9,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * @author jjking
  */
@@ -44,4 +46,13 @@ public class PaymentController {
             return new CommonResult<Integer>(500,"失败");
         }
     }
+//    @GetMapping("/payment/feign/timeout")
+//    public String paymentFeignTimeout() {
+//        try {
+//            TimeUnit.SECONDS.sleep(1);
+//        } catch (InterruptedException e) {
+//            throw new RuntimeException(e);
+//        }
+//        return serverPort;
+//    }
 }
